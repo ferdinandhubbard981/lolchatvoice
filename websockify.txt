@@ -1,0 +1,30 @@
+sudo fuser -k 54739/tcp &
+sudo fuser -k 64739/tcp &
+sudo websockify --ssl-target 54739 0.0.0.0:64739 &
+sudo fuser -k 54740/tcp &
+sudo fuser -k 64740/tcp &
+sudo websockify --ssl-target 54740 0.0.0.0:64740 &
+sudo fuser -k 54741/tcp &
+sudo fuser -k 64741/tcp &
+sudo websockify --ssl-target 54741 0.0.0.0:64741 &
+sudo fuser -k 54742/tcp &
+sudo fuser -k 64742/tcp &
+sudo websockify --ssl-target 54742 0.0.0.0:64742 &
+sudo fuser -k 54743/tcp &
+sudo fuser -k 64743/tcp &
+sudo websockify --ssl-target 54743 0.0.0.0:64743 &
+sudo fuser -k 54744/tcp &
+sudo fuser -k 64744/tcp &
+sudo websockify --ssl-target 54744 0.0.0.0:64744 &
+sudo fuser -k 54745/tcp &
+sudo fuser -k 64745/tcp &
+sudo websockify --ssl-target 54745 0.0.0.0:64745 &
+sudo fuser -k 54746/tcp &
+sudo fuser -k 64746/tcp &
+sudo websockify --ssl-target 54746 0.0.0.0:64746 &
+sudo fuser -k 54747/tcp &
+sudo fuser -k 64747/tcp &
+sudo websockify --ssl-target 54747 0.0.0.0:64747 &
+sudo fuser -k 54748/tcp &
+sudo fuser -k 64748/tcp &
+sudo websockify --ssl-target 54748 0.0.0.0:64748

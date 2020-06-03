@@ -1,0 +1,1 @@
+./murmur.x86 -fg -v -ini /home/ferdi/lolchat/murmur-static_x86-1.3.0/murmur.ini
